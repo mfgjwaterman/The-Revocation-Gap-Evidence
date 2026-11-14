@@ -1,0 +1,31 @@
+
+
+http://cdp3.corp.michaelwaterman.nl/crl/Corp-Enterprise-CA.crl
+
+http://x1.c.lencr.org/
+
+http://cdp1.corp.michaelwaterman.nl/crl/Corp-Enterprise-CA.crl
+
+http://yr1.c.lencr.org/57.crl
+
+http://ctldl.windowsupdate.com/msdownload/update/v3/static/trustedr/en/disallowedcertstl.cab
+
+http://www.microsoft.com/pkiops/crl/Microsoft%20ID%20Verified%20CS%20EOC%20CA%2004.crl
+
+http://ctldl.windowsupdate.com/msdownload/update/v3/static/trustedr/en/authrootstl.cab
+
+http://cdp2.corp.michaelwaterman.nl/crl/Corp-Enterprise-CA.crl
+
+http://cdp2.corp.michaelwaterman.nl/crl/Corp-Root-CA.crl
+
+http://cdp1.corp.michaelwaterman.nl/crl/Corp-Root-CA.crl
+
+http://cdp3.corp.michaelwaterman.nl/crl/Corp-Root-CA.crl
+
+http://www.microsoft.com/pkiops/crl/Microsoft%20ID%20Verified%20Code%20Signing%20PCA%202021.crl
+
+http://yr.c.lencr.org/
+
+WinHttp Cache entries: 13
+
+CertUtil: -URLCache command completed successfully.

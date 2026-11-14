@@ -1,0 +1,10 @@
+WinINet Cache entries deleted: 0
+
+http://cdp2.corp.michaelwaterman.nl/crl/Corp-Root-CA.crl
+
+ldap:///CN=Corp-Enterprise-CA(2),CN=lab-srv-01,CN=CDP,CN=Public%20Key%20Services,CN=Services,CN=Configuration,DC=corp,DC=michaelwaterman,DC=nl?certificateRevocationList?base?objectClass=cRLDistributionPoint
+
+WinHttp Cache entries deleted: 2
+
+CertUtil: -URLCache command FAILED: 0x80070103 (WIN32/HTTP: 259 ERROR_NO_MORE_ITEMS)
+CertUtil: No more data is available.

@@ -1,0 +1,60 @@
+https://settings.visualstudio.microsoft.com/pub/RemoteSettings/Default.json
+
+https://telemetry.visualstudio.microsoft.com/pub/Default/v2/dyntelconfig.json.errormarker
+
+Visited: Superuser@file:///C:/Users/Superuser/Desktop/runme.ps1
+
+Visited: Superuser@file:///C:/RevocationLab/R31-TestCertificate.cer
+
+WinINet Cache entries deleted: 4
+
+http://ocsp.digicert.com/MFEwTzBNMEswSTAJBgUrDgMCGgUABBRbuhDibVrw1t5r3WYz1C9Jl6I%2FtwQU729TSunkBnx6yuKQVvYv1Ensy04CEAqA7xhLjfEFgtHEdqeVdGg%3D
+
+ldap:///CN=Corp-Enterprise-CA,CN=AIA,CN=Public%20Key%20Services,CN=Services,CN=Configuration,DC=corp,DC=michaelwaterman,DC=nl?cACertificate?base?objectClass=certificationAuthority
+
+http://cdp2.corp.michaelwaterman.nl/aia/Corp-Root-CA.crt
+
+http://cdp2.corp.michaelwaterman.nl/aia/Corp-Enterprise-CA(2).crt
+
+http://cdp3.corp.michaelwaterman.nl/crl/Corp-Enterprise-CA(2).crl
+
+http://ctldl.windowsupdate.com/msdownload/update/v3/static/trustedr/en/disallowedcertstl.cab
+
+http://ocsp.digicert.com/MFEwTzBNMEswSTAJBgUrDgMCGgUABBT3xL4LQLXDRDM9P665TW442vrsUQQUReuir%2FSSy4IxLVGLp6chnfNtyA8CEA6bGI750C3n79tQ4ghAGFo%3D
+
+http://cdp3.corp.michaelwaterman.nl/aia/Corp-Enterprise-CA(2).crt
+
+http://cdp1.corp.michaelwaterman.nl/aia/Corp-Enterprise-CA(2).crt
+
+http://ctldl.windowsupdate.com/msdownload/update/v3/static/trustedr/en/authrootstl.cab
+
+http://ocsp.digicert.com/MFEwTzBNMEswSTAJBgUrDgMCGgUABBSRXerF0eFeSWRripTgTkcJWMm7iQQUaDfg67Y7%2BF8Rhvv%2BYXsIiGX0TkICEAqD8QnmF2wMNGbc%2FyvzkWY%3D
+
+http://ocsp.digicert.com/MFEwTzBNMEswSTAJBgUrDgMCGgUABBSRXerF0eFeSWRripTgTkcJWMm7iQQUaDfg67Y7%2BF8Rhvv%2BYXsIiGX0TkICEArBSh3N38%2BtghsHEBawLB8%3D
+
+http://cdp2.corp.michaelwaterman.nl/crl/Corp-Root-CA.crl
+
+http://cdp3.corp.michaelwaterman.nl/aia/Corp-Root-CA.crt
+
+http://cdp2.corp.michaelwaterman.nl/crl/Corp-Enterprise-CA(2).crl
+
+http://cdp1.corp.michaelwaterman.nl/crl/Corp-Root-CA.crl
+
+http://cdp3.corp.michaelwaterman.nl/crl/Corp-Root-CA.crl
+
+http://ocsp.digicert.com/MFEwTzBNMEswSTAJBgUrDgMCGgUABBTfIs%2BLjDtGwQ09XEB1Yeq%2BtX%2BBgQQU7NfjgtJxXWRM3y5nP%2Be6mK4cD08CEAitQLJg0pxMn17Nqb2Trtk%3D
+
+http://ocsp.digicert.com/MFEwTzBNMEswSTAJBgUrDgMCGgUABBTfIs%2BLjDtGwQ09XEB1Yeq%2BtX%2BBgQQU7NfjgtJxXWRM3y5nP%2Be6mK4cD08CEA3HrFcF%2FyGZLkBDIgw6SYY%3D
+
+http://cdp1.corp.michaelwaterman.nl/aia/Corp-Root-CA.crt
+
+ldap:///CN=Corp-Enterprise-CA(2),CN=lab-srv-01,CN=CDP,CN=Public%20Key%20Services,CN=Services,CN=Configuration,DC=corp,DC=michaelwaterman,DC=nl?certificateRevocationList?base?objectClass=cRLDistributionPoint
+
+http://cdp1.corp.michaelwaterman.nl/crl/Corp-Enterprise-CA(2).crl
+
+http://ctldl.windowsupdate.com/msdownload/update/v3/static/trustedr/en/pinrulesstl.cab
+
+WinHttp Cache entries deleted: 23
+
+CertUtil: -URLCache command FAILED: 0x80070103 (WIN32/HTTP: 259 ERROR_NO_MORE_ITEMS)
+CertUtil: No more data is available.

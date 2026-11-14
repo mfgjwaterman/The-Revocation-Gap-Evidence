@@ -1,0 +1,164 @@
+X509 Certificate:
+Version: 3
+Serial Number: 3200000012d9cce957344b8381000200000012
+Signature Algorithm:
+    Algorithm ObjectId: 1.2.840.113549.1.1.11 sha256RSA
+    Algorithm Parameters:
+    05 00
+Issuer:
+    CN=Corp-Enterprise-CA
+    DC=corp
+    DC=michaelwaterman
+    DC=nl
+  Name Hash(sha1): eaf5af103b441be0a8e785665c010bf3f574a8c7
+  Name Hash(md5): a2d2d31b70d0b221978905d94e7c1ee1
+
+ NotBefore: 13-11-2026 09:29
+ NotAfter: 13-11-2027 09:29
+
+Subject:
+    CN=lab-srv-05.corp.michaelwaterman.nl
+  Name Hash(sha1): 6042636f7866f7957ade8a77e6d9dd5ad62e6037
+  Name Hash(md5): edc7df4bb4bc0b56c6c8df4fa5a139b5
+
+Public Key Algorithm:
+    Algorithm ObjectId: 1.2.840.10045.2.1 ECC
+    Algorithm Parameters:
+    06 08 2a 86 48 ce 3d 03  01 07
+        1.2.840.10045.3.1.7 ECDH_P256
+Public Key Length: 256 bits
+Public Key: UnusedBits = 0
+    0000  04 80 44 95 02 3f 00 7c  73 17 75 e9 84 52 e2 95
+    0010  b5 57 9e 80 d7 1a cc 99  65 2d 0a da 9f 2d 85 ef
+    0020  c2 b5 61 58 a8 8e d7 42  bf c0 06 18 7a 78 ec 06
+    0030  2e 5e bd 09 51 01 3a b1  0f 6b c5 83 da 49 40 09
+    0040  cd
+Certificate Extensions: 10
+    1.3.6.1.4.1.311.21.7: Flags = 0, Length = 30
+    Certificate Template Information
+        Template=Corp Web Server(1.3.6.1.4.1.311.21.8.15519390.10315492.15616433.12393029.14078202.39.7565951.7698559)
+        Major Version Number=101
+        Minor Version Number=2
+
+    2.5.29.37: Flags = 0, Length = c
+    Enhanced Key Usage
+        Server Authentication (1.3.6.1.5.5.7.3.1)
+
+    2.5.29.15: Flags = 1(Critical), Length = 4
+    Key Usage
+        Digital Signature, Key Agreement (88)
+
+    1.3.6.1.4.1.311.21.10: Flags = 0, Length = e
+    Application Policies
+        [1]Application Certificate Policy:
+             Policy Identifier=Server Authentication
+
+    2.5.29.14: Flags = 0, Length = 16
+    Subject Key Identifier
+        fdead985e037f4cbc6b2052ce589c45b5346a5fa
+
+    2.5.29.35: Flags = 0, Length = 18
+    Authority Key Identifier
+        KeyID=83cf7e84b9aa9cd464a2d9b262e7d013c5e8cf04
+
+    2.5.29.31: Flags = 0, Length = 1aa
+    CRL Distribution Points
+        [1]CRL Distribution Point
+             Distribution Point Name:
+                  Full Name:
+                       URL=http://cdp1.corp.michaelwaterman.nl/crl/Corp-Enterprise-CA(2).crl
+                       URL=ldap:///CN=Corp-Enterprise-CA(2),CN=lab-srv-01,CN=CDP,CN=Public Key Services,CN=Services,CN=Configuration,DC=corp,DC=michaelwaterman,DC=nl?certificateRevocationList?base?objectClass=cRLDistributionPoint (ldap:///CN=Corp-Enterprise-CA(2),CN=lab-srv-01,CN=CDP,CN=Public%20Key%20Services,CN=Services,CN=Configuration,DC=corp,DC=michaelwaterman,DC=nl?certificateRevocationList?base?objectClass=cRLDistributionPoint)
+                       URL=http://cdp2.corp.michaelwaterman.nl/crl/Corp-Enterprise-CA(2).crl
+                       URL=http://cdp3.corp.michaelwaterman.nl/crl/Corp-Enterprise-CA(2).crl
+
+    1.3.6.1.5.5.7.1.1: Flags = 0, Length = 1b4
+    Authority Information Access
+        [1]Authority Info Access
+             Access Method=Certification Authority Issuer (1.3.6.1.5.5.7.48.2)
+             Alternative Name:
+                  URL=http://cdp1.corp.michaelwaterman.nl/aia/Corp-Enterprise-CA(2).crt
+        [2]Authority Info Access
+             Access Method=Certification Authority Issuer (1.3.6.1.5.5.7.48.2)
+             Alternative Name:
+                  URL=ldap:///CN=Corp-Enterprise-CA,CN=AIA,CN=Public Key Services,CN=Services,CN=Configuration,DC=corp,DC=michaelwaterman,DC=nl?cACertificate?base?objectClass=certificationAuthority (ldap:///CN=Corp-Enterprise-CA,CN=AIA,CN=Public%20Key%20Services,CN=Services,CN=Configuration,DC=corp,DC=michaelwaterman,DC=nl?cACertificate?base?objectClass=certificationAuthority)
+        [3]Authority Info Access
+             Access Method=Certification Authority Issuer (1.3.6.1.5.5.7.48.2)
+             Alternative Name:
+                  URL=http://cdp2.corp.michaelwaterman.nl/aia/Corp-Enterprise-CA(2).crt
+        [4]Authority Info Access
+             Access Method=Certification Authority Issuer (1.3.6.1.5.5.7.48.2)
+             Alternative Name:
+                  URL=http://cdp3.corp.michaelwaterman.nl/aia/Corp-Enterprise-CA(2).crt
+
+    2.5.29.17: Flags = 0, Length = 26
+    Subject Alternative Name
+        DNS Name=lab-srv-05.corp.michaelwaterman.nl
+
+    1.3.6.1.4.1.311.25.2: Flags = 0, Length = 40
+
+    0000  30 3e a0 3c 06 0a 2b 06  01 04 01 82 37 19 02 01   0>.<..+.....7...
+    0010  a0 2e 04 2c 53 2d 31 2d  35 2d 32 31 2d 36 33 39   ...,S-1-5-21-639
+    0020  33 33 39 36 39 33 2d 36  31 34 30 30 31 38 32 37   339693-614001827
+    0030  2d 34 32 37 31 36 37 31  32 34 37 2d 31 31 30 38   -4271671247-1108
+0000: 30 3e					; SEQUENCE (3e Bytes)
+0002:    a0 3c					; OPTIONAL[0] (3c Bytes)
+0004:       06 0a				; OBJECT_ID (a Bytes)
+0006:       |  2b 06 01 04 01 82 37 19  02 01
+            |     ; 1.3.6.1.4.1.311.25.2.1
+0010:       a0 2e				; OPTIONAL[0] (2e Bytes)
+0012:          04 2c				; OCTET_STRING (2c Bytes)
+0014:             53 2d 31 2d 35 2d 32 31  2d 36 33 39 33 33 39 36  ; S-1-5-21-6393396
+0024:             39 33 2d 36 31 34 30 30  31 38 32 37 2d 34 32 37  ; 93-614001827-427
+0034:             31 36 37 31 32 34 37 2d  31 31 30 38              ; 1671247-1108
+
+Signature Algorithm:
+    Algorithm ObjectId: 1.2.840.113549.1.1.11 sha256RSA
+    Algorithm Parameters:
+    05 00
+Signature: UnusedBits=0
+    0000  a0 67 88 c0 f3 19 48 9a  87 78 ea 0f 0c 98 63 4a
+    0010  a2 fa 8f 87 bf 7f 93 0f  b2 79 38 77 4b 7e 1b a8
+    0020  5c 2b 29 ce b2 e3 7e 51  43 9b 85 70 2b 91 9a b1
+    0030  6a 67 dc 67 01 ba 5b a5  cd 40 7d 61 8a 81 03 54
+    0040  24 51 de 64 96 ed 39 f4  af 43 3b c1 b6 77 86 7d
+    0050  84 3c 38 51 f4 8d a1 41  e5 98 06 f9 a7 60 6f f9
+    0060  f2 86 84 94 bb 8d 7b a4  d7 57 de 83 52 8b 81 9b
+    0070  95 cc 38 91 70 26 c4 65  91 08 3e 1e 97 aa 7b 37
+    0080  ea 04 18 96 f7 27 98 02  c8 42 45 85 ee b8 dd 9f
+    0090  23 f8 60 da a1 88 ce a7  7c 87 63 65 3d 74 37 49
+    00a0  f3 97 fd bd ff 7d 88 bd  98 77 b9 d5 a2 52 cc 23
+    00b0  24 54 c6 3c ab ae 8c a6  14 db 61 11 01 46 5d af
+    00c0  0c 3d 32 e7 1f 16 1e fc  2c 7f bd c5 55 73 fe e8
+    00d0  49 c8 cf 3f f6 a1 62 24  0c d3 93 c6 b7 03 8f 70
+    00e0  bc cf 03 e6 28 3b d5 80  79 9f 6f 9e 0f eb 76 26
+    00f0  c4 e0 31 73 ff 57 2c 6c  2d 89 e1 4c 22 63 6d ae
+    0100  e1 30 9b c2 40 9b 63 15  02 88 b4 f9 8f 4a f4 ac
+    0110  79 84 42 65 eb 7c cb e2  42 d3 fd 5c a4 10 a9 2d
+    0120  8e ea a4 ad b0 62 9e 3c  d5 ea bf 23 27 72 51 9d
+    0130  2d 3d db 05 02 21 c2 72  58 92 f9 70 8b 0f 9f 88
+    0140  85 80 38 a4 82 12 37 b1  b6 ed 84 e6 98 bb d6 75
+    0150  c3 92 4a 13 55 cf e7 71  a5 e8 cc e7 f1 78 b6 9f
+    0160  2c 37 c6 cb ab a1 a1 01  ed 81 29 2d 8d 94 c4 60
+    0170  0b 36 7b d3 b4 84 ed 78  eb d0 a8 86 3f 99 cf 4a
+    0180  42 0f b9 f4 00 0e 59 72  fa ca 59 e6 1f 23 d1 8d
+    0190  ed 46 4f 7f 76 ba 69 ab  f2 d8 62 b7 13 5f 2b 48
+    01a0  bd ab d6 47 6d bd 2d ce  25 ca 10 76 70 5f f6 6f
+    01b0  a8 32 f3 85 b0 69 07 bc  71 12 fb da 35 f7 11 d1
+    01c0  78 64 07 9b 2a 8d ce cc  39 74 20 05 0f b7 e7 42
+    01d0  9c ac 4f 12 fd 85 06 4c  30 39 7a 67 8e 5e 7e e0
+    01e0  fd 6b cc 0f 8d cc 06 06  8d e4 6f f8 34 07 0d cb
+    01f0  87 3d f8 55 90 14 31 aa  5b 4e 8a bc e0 f5 4f 77
+Non-root Certificate
+Key Id Hash(rfc-sha1): fdead985e037f4cbc6b2052ce589c45b5346a5fa
+Key Id Hash(sha1): f7c42745912172e1e249dd6e4dc3df2498642c75
+Key Id Hash(bcrypt-sha1): 6007451ceb42f76411dd16487ec124fb58290516
+Key Id Hash(bcrypt-sha256): 2e3b4e99ed7b78bd307856146a8e1d347f0f67a984b1e21d15daf25a4d0b451e
+Key Id Hash(md5): b2c7267247a7760df5c2166701072b65
+Key Id Hash(sha256): 8e4d8c154cadf83cae9c1925fa9886460eddcce7f6e5d00f8e70a96d962b6969
+Key Id Hash(pin-sha256): cq/PL7Ifm9w3PEIApI9q+tmvhwN/ToDKT14w0LL3/ls=
+Key Id Hash(pin-sha256-hex): 72afcf2fb21f9bdc373c4200a48f6afad9af87037f4e80ca4f5e30d0b2f7fe5b
+Cert Hash(md5): ca1c4919fdc78a74b7ba58f6e66829f6
+Cert Hash(sha1): 9382d776b80ca420bb3b9225baf3b4fe7feacec8
+Cert Hash(sha256): b1860401bcdf7b27a812a4227299c7fa6c7924054fb0fd21da5170c624bce5e2
+Signature Hash: 8ea103a2a116288ce5da1fca668a05251ad1bce703cab066a989739248ebaa25
+CertUtil: -dump command completed successfully.

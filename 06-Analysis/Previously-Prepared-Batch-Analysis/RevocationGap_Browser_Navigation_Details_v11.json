@@ -1,0 +1,1260 @@
+[
+  {
+    "scenario": "Chrome-NoControl-Cold",
+    "jobs": [],
+    "requests": [
+      {
+        "source": 897,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 49
+      },
+      {
+        "source": 927,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/iisstart.png",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 69
+      }
+    ],
+    "linked": []
+  },
+  {
+    "scenario": "Chrome-DisableCache-Revoke-UniqueURL",
+    "jobs": [
+      {
+        "source": 300,
+        "host": "lab-srv-03.corp.michaelwaterman.nl",
+        "error": -206,
+        "status": 131136,
+        "completed": true,
+        "time": "231465882"
+      }
+    ],
+    "requests": [
+      {
+        "source": 301,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/?revocation-test=1534",
+        "ssl_error_event": true,
+        "errors": "[('URL_REQUEST_DELEGATE_SSL_CERTIFICATE_ERROR', {}), ('URL_REQUEST_DELEGATE_SSL_CERTIFICATE_ERROR', {}), ('CANCELLED', {'net_error': -206}), ('URL_REQUEST_START_JOB', {'net_error': -206}), ('REQUEST_ALIVE', {'net_error': -206})]",
+        "events": 30
+      }
+    ],
+    "linked": [
+      {
+        "job": 300,
+        "requests": []
+      }
+    ]
+  },
+  {
+    "scenario": "Chrome-DisableCache-Revoke-Retest",
+    "jobs": [
+      {
+        "source": 297,
+        "host": "lab-srv-03.corp.michaelwaterman.nl",
+        "error": -206,
+        "status": 131136,
+        "completed": true,
+        "time": "231250739"
+      }
+    ],
+    "requests": [
+      {
+        "source": 345,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 35
+      },
+      {
+        "source": 378,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/iisstart.png",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 38
+      },
+      {
+        "source": 388,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/favicon.ico",
+        "ssl_error_event": true,
+        "errors": "[('URL_REQUEST_DELEGATE_SSL_CERTIFICATE_ERROR', {}), ('URL_REQUEST_DELEGATE_SSL_CERTIFICATE_ERROR', {}), ('CANCELLED', {'net_error': -206}), ('URL_REQUEST_START_JOB', {'net_error': -206}), ('REQUEST_ALIVE', {'net_error': -206})]",
+        "events": 30
+      }
+    ],
+    "linked": [
+      {
+        "job": 297,
+        "requests": []
+      }
+    ]
+  },
+  {
+    "scenario": "Chrome-DisableCache-Revoke",
+    "jobs": [
+      {
+        "source": 293,
+        "host": "lab-srv-03.corp.michaelwaterman.nl",
+        "error": -206,
+        "status": 131136,
+        "completed": true,
+        "time": "231062164"
+      }
+    ],
+    "requests": [
+      {
+        "source": 341,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 35
+      },
+      {
+        "source": 373,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/iisstart.png",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 38
+      },
+      {
+        "source": 382,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/favicon.ico",
+        "ssl_error_event": true,
+        "errors": "[('URL_REQUEST_DELEGATE_SSL_CERTIFICATE_ERROR', {}), ('URL_REQUEST_DELEGATE_SSL_CERTIFICATE_ERROR', {}), ('CANCELLED', {'net_error': -206}), ('URL_REQUEST_START_JOB', {'net_error': -206}), ('REQUEST_ALIVE', {'net_error': -206})]",
+        "events": 32
+      }
+    ],
+    "linked": [
+      {
+        "job": 293,
+        "requests": []
+      }
+    ]
+  },
+  {
+    "scenario": "Chrome-DisableCache-NewCRL",
+    "jobs": [
+      {
+        "source": 295,
+        "host": "lab-srv-03.corp.michaelwaterman.nl",
+        "error": "",
+        "status": 131072,
+        "completed": true,
+        "time": "230777365"
+      }
+    ],
+    "requests": [
+      {
+        "source": 317,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 35
+      },
+      {
+        "source": 343,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/iisstart.png",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 38
+      },
+      {
+        "source": 353,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/favicon.ico",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 50
+      }
+    ],
+    "linked": [
+      {
+        "job": 295,
+        "requests": [
+          "353"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "Chrome-DisableCache-Warm",
+    "jobs": [
+      {
+        "source": 309,
+        "host": "lab-srv-03.corp.michaelwaterman.nl",
+        "error": "",
+        "status": 131072,
+        "completed": true,
+        "time": "230598974"
+      }
+    ],
+    "requests": [
+      {
+        "source": 331,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 35
+      },
+      {
+        "source": 361,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/iisstart.png",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 38
+      },
+      {
+        "source": 370,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/favicon.ico",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 50
+      }
+    ],
+    "linked": [
+      {
+        "job": 309,
+        "requests": [
+          "370"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "Chrome-DisableCache-Cold",
+    "jobs": [
+      {
+        "source": 331,
+        "host": "lab-srv-03.corp.michaelwaterman.nl",
+        "error": "",
+        "status": 131072,
+        "completed": true,
+        "time": "230337602"
+      }
+    ],
+    "requests": [
+      {
+        "source": 353,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 49
+      },
+      {
+        "source": 387,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/iisstart.png",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 69
+      },
+      {
+        "source": 401,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/favicon.ico",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 48
+      }
+    ],
+    "linked": [
+      {
+        "job": 331,
+        "requests": [
+          "353",
+          "387",
+          "401"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "Chrome-ExpiredCRL-HttpExpired",
+    "jobs": [
+      {
+        "source": 249,
+        "host": "lab-srv-03.corp.michaelwaterman.nl",
+        "error": "",
+        "status": 131072,
+        "completed": true,
+        "time": "230145147"
+      }
+    ],
+    "requests": [
+      {
+        "source": 273,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 35
+      },
+      {
+        "source": 316,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/iisstart.png",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 38
+      },
+      {
+        "source": 332,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/favicon.ico",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 48
+      }
+    ],
+    "linked": [
+      {
+        "job": 249,
+        "requests": [
+          "332"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "Chrome-ExpiredCRL-HttpFresh",
+    "jobs": [
+      {
+        "source": 299,
+        "host": "lab-srv-03.corp.michaelwaterman.nl",
+        "error": -205,
+        "status": 131104,
+        "completed": true,
+        "time": "229964475"
+      }
+    ],
+    "requests": [
+      {
+        "source": 335,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 35
+      },
+      {
+        "source": 367,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/iisstart.png",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 38
+      },
+      {
+        "source": 376,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/favicon.ico",
+        "ssl_error_event": true,
+        "errors": "[('URL_REQUEST_DELEGATE_SSL_CERTIFICATE_ERROR', {}), ('URL_REQUEST_DELEGATE_SSL_CERTIFICATE_ERROR', {}), ('CANCELLED', {'net_error': -205}), ('URL_REQUEST_START_JOB', {'net_error': -205}), ('REQUEST_ALIVE', {'net_error': -205})]",
+        "events": 32
+      }
+    ],
+    "linked": [
+      {
+        "job": 299,
+        "requests": []
+      }
+    ]
+  },
+  {
+    "scenario": "Chrome-UseMaxAge-Warm",
+    "jobs": [
+      {
+        "source": 317,
+        "host": "lab-srv-03.corp.michaelwaterman.nl",
+        "error": "",
+        "status": 131072,
+        "completed": true,
+        "time": "229685975"
+      }
+    ],
+    "requests": [
+      {
+        "source": 326,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 35
+      },
+      {
+        "source": 355,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/iisstart.png",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 38
+      },
+      {
+        "source": 365,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/favicon.ico",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 50
+      }
+    ],
+    "linked": [
+      {
+        "job": 317,
+        "requests": [
+          "365"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "Chrome-UseMaxAge-Cold",
+    "jobs": [
+      {
+        "source": 324,
+        "host": "lab-srv-03.corp.michaelwaterman.nl",
+        "error": "",
+        "status": 131072,
+        "completed": true,
+        "time": "229494615"
+      }
+    ],
+    "requests": [
+      {
+        "source": 346,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 49
+      },
+      {
+        "source": 380,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/iisstart.png",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 81
+      },
+      {
+        "source": 394,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/favicon.ico",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 48
+      }
+    ],
+    "linked": [
+      {
+        "job": 324,
+        "requests": [
+          "346",
+          "380",
+          "394"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "Chrome-NoControl-Warm",
+    "jobs": [
+      {
+        "source": 298,
+        "host": "lab-srv-03.corp.michaelwaterman.nl",
+        "error": "",
+        "status": 131072,
+        "completed": true,
+        "time": "229318584"
+      }
+    ],
+    "requests": [
+      {
+        "source": 307,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 35
+      },
+      {
+        "source": 358,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/iisstart.png",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 38
+      },
+      {
+        "source": 372,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/favicon.ico",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 50
+      }
+    ],
+    "linked": [
+      {
+        "job": 298,
+        "requests": [
+          "372"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "Chrome-NoControl-Cold-02",
+    "jobs": [
+      {
+        "source": 337,
+        "host": "lab-srv-03.corp.michaelwaterman.nl",
+        "error": "",
+        "status": 131072,
+        "completed": true,
+        "time": "229064754"
+      }
+    ],
+    "requests": [
+      {
+        "source": 359,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 49
+      },
+      {
+        "source": 390,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/iisstart.png",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 81
+      },
+      {
+        "source": 407,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/favicon.ico",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 48
+      }
+    ],
+    "linked": [
+      {
+        "job": 337,
+        "requests": [
+          "359",
+          "407",
+          "390"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "Edge-DisableCache-Cold",
+    "jobs": [
+      {
+        "source": 179,
+        "host": "lab-srv-03.corp.michaelwaterman.nl",
+        "error": "",
+        "status": 131072,
+        "completed": true,
+        "time": "6784744"
+      }
+    ],
+    "requests": [
+      {
+        "source": 206,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 49
+      },
+      {
+        "source": 213,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/iisstart.png",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 69
+      },
+      {
+        "source": 223,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/favicon.ico",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 48
+      }
+    ],
+    "linked": [
+      {
+        "job": 179,
+        "requests": [
+          "206",
+          "213",
+          "223"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "Edge-DisableCache-Warm",
+    "jobs": [
+      {
+        "source": 204,
+        "host": "lab-srv-03.corp.michaelwaterman.nl",
+        "error": "",
+        "status": 131072,
+        "completed": true,
+        "time": "6927773"
+      }
+    ],
+    "requests": [
+      {
+        "source": 231,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 35
+      },
+      {
+        "source": 234,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/iisstart.png",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 38
+      }
+    ],
+    "linked": [
+      {
+        "job": 204,
+        "requests": []
+      }
+    ]
+  },
+  {
+    "scenario": "Edge-ExpiredCRL-AfterClear",
+    "jobs": [
+      {
+        "source": 249,
+        "host": "lab-srv-03.corp.michaelwaterman.nl",
+        "error": "",
+        "status": 131072,
+        "completed": true,
+        "time": "10106605"
+      }
+    ],
+    "requests": [
+      {
+        "source": 278,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 49
+      },
+      {
+        "source": 290,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/iisstart.png",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 78
+      },
+      {
+        "source": 296,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/favicon.ico",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 48
+      }
+    ],
+    "linked": [
+      {
+        "job": 249,
+        "requests": [
+          "278",
+          "290",
+          "296"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "Edge-ExpiredCRL-Baseline",
+    "jobs": [
+      {
+        "source": 257,
+        "host": "lab-srv-03.corp.michaelwaterman.nl",
+        "error": "",
+        "status": 131072,
+        "completed": true,
+        "time": "9003586"
+      }
+    ],
+    "requests": [
+      {
+        "source": 286,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 49
+      },
+      {
+        "source": 293,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/iisstart.png",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 78
+      },
+      {
+        "source": 304,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/favicon.ico",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 48
+      }
+    ],
+    "linked": [
+      {
+        "job": 257,
+        "requests": [
+          "286",
+          "293",
+          "304"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "Edge-ExpiredCRL-HttpFresh",
+    "jobs": [
+      {
+        "source": 218,
+        "host": "lab-srv-03.corp.michaelwaterman.nl",
+        "error": -205,
+        "status": 131104,
+        "completed": true,
+        "time": "9746482"
+      }
+    ],
+    "requests": [
+      {
+        "source": 251,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 35
+      },
+      {
+        "source": 253,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/iisstart.png",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 38
+      },
+      {
+        "source": 261,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/favicon.ico",
+        "ssl_error_event": true,
+        "errors": "[('URL_REQUEST_DELEGATE_SSL_CERTIFICATE_ERROR', {}), ('URL_REQUEST_DELEGATE_SSL_CERTIFICATE_ERROR', {}), ('CANCELLED', {'net_error': -205}), ('URL_REQUEST_START_JOB', {'net_error': -205}), ('REQUEST_ALIVE', {'net_error': -205})]",
+        "events": 32
+      }
+    ],
+    "linked": [
+      {
+        "job": 218,
+        "requests": []
+      }
+    ]
+  },
+  {
+    "scenario": "Edge-MaxAge120-A",
+    "jobs": [
+      {
+        "source": 274,
+        "host": "lab-srv-03.corp.michaelwaterman.nl",
+        "error": "",
+        "status": 131072,
+        "completed": true,
+        "time": "7244177"
+      }
+    ],
+    "requests": [
+      {
+        "source": 301,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 49
+      },
+      {
+        "source": 308,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/iisstart.png",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 85
+      },
+      {
+        "source": 330,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/favicon.ico",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 48
+      }
+    ],
+    "linked": [
+      {
+        "job": 274,
+        "requests": [
+          "301",
+          "308",
+          "330"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "Edge-MaxAge600-B",
+    "jobs": [
+      {
+        "source": 177,
+        "host": "lab-srv-03.corp.michaelwaterman.nl",
+        "error": "",
+        "status": 131072,
+        "completed": true,
+        "time": "7383555"
+      }
+    ],
+    "requests": [
+      {
+        "source": 191,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 35
+      },
+      {
+        "source": 193,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/iisstart.png",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 38
+      },
+      {
+        "source": 211,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/favicon.ico",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 50
+      }
+    ],
+    "linked": [
+      {
+        "job": 177,
+        "requests": [
+          "211"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "Edge-MaxAge600-C",
+    "jobs": [
+      {
+        "source": 179,
+        "host": "lab-srv-03.corp.michaelwaterman.nl",
+        "error": "",
+        "status": 131072,
+        "completed": true,
+        "time": "7926858"
+      }
+    ],
+    "requests": [
+      {
+        "source": 206,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 35
+      },
+      {
+        "source": 208,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/iisstart.png",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 38
+      },
+      {
+        "source": 214,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/favicon.ico",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 50
+      }
+    ],
+    "linked": [
+      {
+        "job": 179,
+        "requests": [
+          "214"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "Edge-MaxAge600-NewCRL-Expired",
+    "jobs": [
+      {
+        "source": 256,
+        "host": "lab-srv-03.corp.michaelwaterman.nl",
+        "error": "",
+        "status": 131072,
+        "completed": true,
+        "time": "8563327"
+      }
+    ],
+    "requests": [
+      {
+        "source": 293,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 35
+      },
+      {
+        "source": 296,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/iisstart.png",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 38
+      },
+      {
+        "source": 315,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/favicon.ico",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 50
+      }
+    ],
+    "linked": [
+      {
+        "job": 256,
+        "requests": [
+          "315"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "Edge-MaxAge600-NewCRL-Fresh",
+    "jobs": [
+      {
+        "source": 247,
+        "host": "lab-srv-03.corp.michaelwaterman.nl",
+        "error": "",
+        "status": 131072,
+        "completed": true,
+        "time": "8224613"
+      }
+    ],
+    "requests": [
+      {
+        "source": 261,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 35
+      },
+      {
+        "source": 264,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/iisstart.png",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 38
+      },
+      {
+        "source": 284,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/favicon.ico",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 50
+      }
+    ],
+    "linked": [
+      {
+        "job": 247,
+        "requests": [
+          "284"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "Edge-NoControl-Warm",
+    "jobs": [
+      {
+        "source": 290,
+        "host": "lab-srv-03.corp.michaelwaterman.nl",
+        "error": "",
+        "status": 131072,
+        "completed": true,
+        "time": "6280229"
+      }
+    ],
+    "requests": [
+      {
+        "source": 304,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 35
+      },
+      {
+        "source": 306,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/iisstart.png",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 38
+      },
+      {
+        "source": 324,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/favicon.ico",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 50
+      }
+    ],
+    "linked": [
+      {
+        "job": 290,
+        "requests": [
+          "324"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "Edge-Revoke-AfterClear",
+    "jobs": [
+      {
+        "source": 236,
+        "host": "lab-srv-03.corp.michaelwaterman.nl",
+        "error": -206,
+        "status": 131136,
+        "completed": true,
+        "time": "11129180"
+      }
+    ],
+    "requests": [
+      {
+        "source": 273,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/",
+        "ssl_error_event": true,
+        "errors": "[('URL_REQUEST_DELEGATE_SSL_CERTIFICATE_ERROR', {}), ('URL_REQUEST_DELEGATE_SSL_CERTIFICATE_ERROR', {}), ('CANCELLED', {'net_error': -206}), ('URL_REQUEST_START_JOB', {'net_error': -206}), ('REQUEST_ALIVE', {'net_error': -206})]",
+        "events": 30
+      },
+      {
+        "source": 292,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/",
+        "ssl_error_event": true,
+        "errors": "[('URL_REQUEST_DELEGATE_SSL_CERTIFICATE_ERROR', {}), ('URL_REQUEST_DELEGATE_SSL_CERTIFICATE_ERROR', {}), ('CANCELLED', {'net_error': -206}), ('URL_REQUEST_START_JOB', {'net_error': -206}), ('REQUEST_ALIVE', {'net_error': -206})]",
+        "events": 30
+      }
+    ],
+    "linked": [
+      {
+        "job": 236,
+        "requests": []
+      }
+    ]
+  },
+  {
+    "scenario": "Edge-Revoke-Baseline",
+    "jobs": [
+      {
+        "source": 216,
+        "host": "lab-srv-03.corp.michaelwaterman.nl",
+        "error": "",
+        "status": 131072,
+        "completed": true,
+        "time": "10703454"
+      }
+    ],
+    "requests": [
+      {
+        "source": 243,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 49
+      },
+      {
+        "source": 254,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/iisstart.png",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 81
+      },
+      {
+        "source": 260,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/favicon.ico",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 48
+      }
+    ],
+    "linked": [
+      {
+        "job": 216,
+        "requests": [
+          "243",
+          "254",
+          "260"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "Edge-Revoke-Warm",
+    "jobs": [
+      {
+        "source": 177,
+        "host": "lab-srv-03.corp.michaelwaterman.nl",
+        "error": "",
+        "status": 131072,
+        "completed": true,
+        "time": "10936393"
+      }
+    ],
+    "requests": [
+      {
+        "source": 191,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 35
+      },
+      {
+        "source": 193,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/iisstart.png",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 38
+      },
+      {
+        "source": 199,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/favicon.ico",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 50
+      }
+    ],
+    "linked": [
+      {
+        "job": 177,
+        "requests": [
+          "199"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "Edge-UseMaxAge-Cold",
+    "jobs": [
+      {
+        "source": 286,
+        "host": "lab-srv-03.corp.michaelwaterman.nl",
+        "error": "",
+        "status": 131072,
+        "completed": true,
+        "time": "6463838"
+      }
+    ],
+    "requests": [
+      {
+        "source": 313,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 49
+      },
+      {
+        "source": 324,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/iisstart.png",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 85
+      },
+      {
+        "source": 342,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/favicon.ico",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 48
+      }
+    ],
+    "linked": [
+      {
+        "job": 286,
+        "requests": [
+          "313",
+          "342",
+          "324"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "Edge-UseMaxAge-Warm",
+    "jobs": [
+      {
+        "source": 256,
+        "host": "lab-srv-03.corp.michaelwaterman.nl",
+        "error": "",
+        "status": "",
+        "completed": false,
+        "time": "6630124"
+      }
+    ],
+    "requests": [
+      {
+        "source": 257,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 35
+      },
+      {
+        "source": 266,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/iisstart.png",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 38
+      }
+    ],
+    "linked": [
+      {
+        "job": 256,
+        "requests": []
+      }
+    ]
+  },
+  {
+    "scenario": "Edge-NoControl-Cold",
+    "jobs": [
+      {
+        "source": 250,
+        "host": "lab-srv-03.corp.michaelwaterman.nl",
+        "error": "",
+        "status": 131072,
+        "completed": true,
+        "time": "5930979"
+      }
+    ],
+    "requests": [
+      {
+        "source": 279,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 49
+      },
+      {
+        "source": 302,
+        "url": "https://lab-srv-03.corp.michaelwaterman.nl/iisstart.png",
+        "ssl_error_event": false,
+        "errors": "[]",
+        "events": 75
+      }
+    ],
+    "linked": [
+      {
+        "job": 250,
+        "requests": [
+          "279",
+          "302"
+        ]
+      }
+    ]
+  }
+]

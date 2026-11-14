@@ -1,0 +1,64 @@
+RevocationLab v0.4.1
+========================
+Starting native CryptoAPI validation...
+{
+  "Application": "RevocationLab",
+  "Version": "0.4.1",
+  "TestId": "53de23be-76bf-4174-84f7-79ac99567780",
+  "TimestampUtc": "2026-11-09T13:56:09.2650259Z",
+  "ComputerName": "LAB-SRV-05",
+  "OperatingSystem": "Microsoft Windows NT 10.0.26100.0",
+  "DotNetVersion": "10.0.14",
+  "ProcessId": 5180,
+  "Validation": {
+    "ValidationStartUtc": "2026-11-09T13:56:09.1921163Z",
+    "ValidationEndUtc": "2026-11-09T13:56:09.2650004Z",
+    "DurationMilliseconds": 72.8393,
+    "RevocationMode": "ChainExcludeRoot",
+    "CacheResyncRequested": true,
+    "CacheMode": "CacheResync",
+    "ChainBuilt": true,
+    "ChainErrorStatus": "0x00000000",
+    "ChainInfoStatus": "0x00000100",
+    "ValidationPassed": true,
+    "NativeErrorCode": null,
+    "NativeErrorMessage": null
+  },
+  "Certificate": {
+    "Subject": "CN=lab-srv-05.corp.michaelwaterman.nl",
+    "Issuer": "CN=Corp-Enterprise-CA, DC=corp, DC=michaelwaterman, DC=nl",
+    "SerialNumber": "3200000007130F0AAF2A74C709000000000007",
+    "Thumbprint": "1F20B70807320FF0C4C38501F1D9DA6867F61AB2",
+    "NotBeforeUtc": "2026-11-07T15:38:27Z",
+    "NotAfterUtc": "2027-11-07T15:38:27Z",
+    "SignatureAlgorithm": "sha256RSA",
+    "CdpPresent": true,
+    "CdpOid": "2.5.29.31",
+    "CdpCritical": false,
+    "CdpRawDataHex": "3081C93081C6A081C3A081C0863E687474703A2F2F636470312E636F72702E6D69636861656C77617465726D616E2E6E6C2F63726C2F436F72702D456E74657270726973652D43412E63726C863E687474703A2F2F636470322E636F72702E6D69636861656C77617465726D616E2E6E6C2F63726C2F436F72702D456E74657270726973652D43412E63726C863E687474703A2F2F636470332E636F72702E6D69636861656C77617465726D616E2E6E6C2F63726C2F436F72702D456E74657270726973652D43412E63726C",
+    "DistributionPoints": [
+      {
+        "Index": 1,
+        "Urls": [
+          {
+            "Index": 1,
+            "Protocol": "http",
+            "Url": "http://cdp1.corp.michaelwaterman.nl/crl/Corp-Enterprise-CA.crl"
+          },
+          {
+            "Index": 2,
+            "Protocol": "http",
+            "Url": "http://cdp2.corp.michaelwaterman.nl/crl/Corp-Enterprise-CA.crl"
+          },
+          {
+            "Index": 3,
+            "Protocol": "http",
+            "Url": "http://cdp3.corp.michaelwaterman.nl/crl/Corp-Enterprise-CA.crl"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+Results saved to: C:\RevocationLab\RevocationLab\bin\Debug\net10.0\Results\Test-53de23be-76bf-4174-84f7-79ac99567780.json

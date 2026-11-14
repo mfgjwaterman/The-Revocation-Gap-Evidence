@@ -1,0 +1,18 @@
+Visited: Superuser@file:///C:/RevocationLab/R31/R31-09-Pilot-20261113-120150.zip
+
+WinINet Cache entries deleted: 1
+
+http://ctldl.windowsupdate.com/msdownload/update/v3/static/trustedr/en/disallowedcertstl.cab
+
+http://ctldl.windowsupdate.com/msdownload/update/v3/static/trustedr/en/authrootstl.cab
+
+http://cdp1.corp.michaelwaterman.nl/crl/Corp-Root-CA.crl
+
+http://cdp1.corp.michaelwaterman.nl/crl/Corp-Enterprise-CA(2).crl
+
+http://ctldl.windowsupdate.com/msdownload/update/v3/static/trustedr/en/pinrulesstl.cab
+
+WinHttp Cache entries deleted: 5
+
+CertUtil: -URLCache command FAILED: 0x80070103 (WIN32/HTTP: 259 ERROR_NO_MORE_ITEMS)
+CertUtil: No more data is available.

@@ -1,0 +1,6 @@
+"Scenario","Description","DurationMs","Passed","ChainError","CacheMode","CacheResyncRequested","Error","Json","Pcapng"
+"C1","URL cache cleared, endpoints online","155,7923","True","0x00000000","Default","False",,"C:\RevocationLab\R31\R31-09-Pilot-20261113-120150\C1.json","C:\RevocationLab\R31\R31-09-Pilot-20261113-120150\C1.pcapng"
+"C2","Warm cache, endpoints online","18,0825","True","0x00000000","Default","False",,"C:\RevocationLab\R31\R31-09-Pilot-20261113-120150\C2.json","C:\RevocationLab\R31\R31-09-Pilot-20261113-120150\C2.pcapng"
+"C3","Warm cache, HTTP CDPs and LDAP blocked","14,7677","True","0x00000000","Default","False",,"C:\RevocationLab\R31\R31-09-Pilot-20261113-120150\C3.json","C:\RevocationLab\R31\R31-09-Pilot-20261113-120150\C3.pcapng"
+"C4","URL cache deleted while endpoints remain blocked","900,6703","False","0x01000040","Default","False",,"C:\RevocationLab\R31\R31-09-Pilot-20261113-120150\C4.json","C:\RevocationLab\R31\R31-09-Pilot-20261113-120150\C4.pcapng"
+"C5","Endpoints restored, URL cache cleared","36,2831","True","0x00000000","Default","False",,"C:\RevocationLab\R31\R31-09-Pilot-20261113-120150\C5.json","C:\RevocationLab\R31\R31-09-Pilot-20261113-120150\C5.pcapng"

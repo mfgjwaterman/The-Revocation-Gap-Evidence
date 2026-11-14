@@ -1,0 +1,15 @@
+
+
+http://cdp3.corp.michaelwaterman.nl/crl/Corp-Enterprise-CA.crl
+
+http://ctldl.windowsupdate.com/msdownload/update/v3/static/trustedr/en/disallowedcertstl.cab
+
+http://ctldl.windowsupdate.com/msdownload/update/v3/static/trustedr/en/authrootstl.cab
+
+http://cdp2.corp.michaelwaterman.nl/crl/Corp-Enterprise-CA.crl
+
+http://cdp1.corp.michaelwaterman.nl/crl/Corp-Root-CA.crl
+
+WinHttp Cache entries: 5
+
+CertUtil: -URLCache command completed successfully.

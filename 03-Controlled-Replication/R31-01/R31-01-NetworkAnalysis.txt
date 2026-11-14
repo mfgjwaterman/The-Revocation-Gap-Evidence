@@ -1,0 +1,6 @@
+0.000000000	192.168.66.8	192.168.66.3	DNS	Standard query 0xb4e3 A dc.services.visualstudio.com
+0.005443300	192.168.66.3	192.168.66.8	DNS	Standard query response 0xb4e3 A dc.services.visualstudio.com CNAME dc.applicationinsights.microsoft.com CNAME dc.applicationinsights.azure.com CNAME global.in.ai.monitor.azure.com CNAME global.in.ai.privatelink.monitor.azure.com CNAME dc.trafficmanager.net CNAME northeurope-global.in.applicationinsights.azure.com CNAME gig-ai-prod-northeurope-global.trafficmanager.net CNAME gig-ai-g-prod-northeurope-2-app-v4-tag.northeurope.cloudapp.azure.com A 20.166.40.66
+1.014633000	192.168.66.8	192.168.66.5	HTTP	GET /crl/Corp-Root-CA.crl HTTP/1.1 
+1.015094500	192.168.66.5	192.168.66.8	PKIX-CRL	Certificate Revocation List
+1.034247400	192.168.66.8	192.168.66.5	HTTP	GET /crl/Corp-Enterprise-CA(2).crl HTTP/1.1 
+1.034772400	192.168.66.5	192.168.66.8	PKIX-CRL	Certificate Revocation List

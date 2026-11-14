@@ -1,0 +1,29 @@
+{
+  "Experiment": "R31-09",
+  "Description": "CRL caching and retrieval behavior",
+  "Batch": "R31-09-Full-20261113-121510",
+  "Computer": "LAB-SRV-05",
+  "Created": "2026-11-13T12:15:10.0610624+01:00",
+  "Rounds": 10,
+  "PlannedMeasurements": 50,
+  "CaptureSeconds": 12,
+  "CaptureInterface": 1,
+  "Certificate": "C:\\RevocationLab\\R31-TestCertificate.cer",
+  "RevocationLabDll": "C:\\RevocationLab\\RevocationLab\\bin\\Debug\\net10.0\\RevocationLab.dll",
+  "ForceResync": false,
+  "HttpCDPIPs": [
+    "192.168.66.5",
+    "192.168.66.6",
+    "192.168.66.7"
+  ],
+  "LdapIP": "192.168.66.3",
+  "CacheClearCommand": "certutil -urlcache '*' delete",
+  "Notes": [
+    "Each validation uses a new RevocationLab process.",
+    "URL cache deletion does not guarantee a cold chain-engine cache.",
+    "C4 validation failure is an expected possible outcome.",
+    "TCP 80 and LDAP TCP 389 are blocked in offline scenarios.",
+    "Other protocols or retrieval routes are not explicitly blocked.",
+    "Scenario order is fixed to preserve cache-state transitions."
+  ]
+}

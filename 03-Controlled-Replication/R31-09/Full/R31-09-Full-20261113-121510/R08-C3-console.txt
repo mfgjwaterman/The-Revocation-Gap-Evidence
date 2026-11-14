@@ -1,0 +1,69 @@
+RevocationLab v0.4.1
+========================
+Starting native CryptoAPI validation...
+{
+  "Application": "RevocationLab",
+  "Version": "0.4.1",
+  "TestId": "f7e475bd-4413-48fc-8c1e-71b9227c7cfb",
+  "TimestampUtc": "2026-11-13T11:23:20.1406875Z",
+  "ComputerName": "LAB-SRV-05",
+  "OperatingSystem": "Microsoft Windows NT 10.0.26100.0",
+  "DotNetVersion": "10.0.14",
+  "ProcessId": 8364,
+  "Validation": {
+    "ValidationStartUtc": "2026-11-13T11:23:20.1262731Z",
+    "ValidationEndUtc": "2026-11-13T11:23:20.1406691Z",
+    "DurationMilliseconds": 14.356,
+    "RevocationMode": "ChainExcludeRoot",
+    "CacheResyncRequested": false,
+    "CacheMode": "Default",
+    "ChainBuilt": true,
+    "ChainErrorStatus": "0x00000000",
+    "ChainInfoStatus": "0x00000100",
+    "ValidationPassed": true,
+    "NativeErrorCode": null,
+    "NativeErrorMessage": null
+  },
+  "Certificate": {
+    "Subject": "CN=lab-srv-05.corp.michaelwaterman.nl",
+    "Issuer": "CN=Corp-Enterprise-CA, DC=corp, DC=michaelwaterman, DC=nl",
+    "SerialNumber": "3200000012D9CCE957344B8381000200000012",
+    "Thumbprint": "9382D776B80CA420BB3B9225BAF3B4FE7FEACEC8",
+    "NotBeforeUtc": "2026-11-13T08:29:00Z",
+    "NotAfterUtc": "2027-11-13T08:29:00Z",
+    "SignatureAlgorithm": "sha256RSA",
+    "CdpPresent": true,
+    "CdpOid": "2.5.29.31",
+    "CdpCritical": false,
+    "CdpRawDataHex": "308201A6308201A2A082019EA082019A8641687474703A2F2F636470312E636F72702E6D69636861656C77617465726D616E2E6E6C2F63726C2F436F72702D456E74657270726973652D43412832292E63726C8681CE6C6461703A2F2F2F434E3D436F72702D456E74657270726973652D43412832292C434E3D6C61622D7372762D30312C434E3D4344502C434E3D5075626C69632532304B657925323053657276696365732C434E3D53657276696365732C434E3D436F6E66696775726174696F6E2C44433D636F72702C44433D6D69636861656C77617465726D616E2C44433D6E6C3F63657274696669636174655265766F636174696F6E4C6973743F626173653F6F626A656374436C6173733D63524C446973747269627574696F6E506F696E748641687474703A2F2F636470322E636F72702E6D69636861656C77617465726D616E2E6E6C2F63726C2F436F72702D456E74657270726973652D43412832292E63726C8641687474703A2F2F636470332E636F72702E6D69636861656C77617465726D616E2E6E6C2F63726C2F436F72702D456E74657270726973652D43412832292E63726C",
+    "DistributionPoints": [
+      {
+        "Index": 1,
+        "Urls": [
+          {
+            "Index": 1,
+            "Protocol": "http",
+            "Url": "http://cdp1.corp.michaelwaterman.nl/crl/Corp-Enterprise-CA(2).crl"
+          },
+          {
+            "Index": 2,
+            "Protocol": "ldap",
+            "Url": "ldap:///CN=Corp-Enterprise-CA(2),CN=lab-srv-01,CN=CDP,CN=Public%20Key%20Services,CN=Services,CN=Configuration,DC=corp,DC=michaelwaterman,DC=nl?certificateRevocationList?base?objectClass=cRLDistributionPoint"
+          },
+          {
+            "Index": 3,
+            "Protocol": "http",
+            "Url": "http://cdp2.corp.michaelwaterman.nl/crl/Corp-Enterprise-CA(2).crl"
+          },
+          {
+            "Index": 4,
+            "Protocol": "http",
+            "Url": "http://cdp3.corp.michaelwaterman.nl/crl/Corp-Enterprise-CA(2).crl"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+Results saved to: C:\RevocationLab\RevocationLab\bin\Debug\net10.0\Results\Test-f7e475bd-4413-48fc-8c1e-71b9227c7cfb.json
