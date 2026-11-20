@@ -3,9 +3,9 @@
 This archive reorganizes the three source uploads without modifying the content of the included original evidence files.
 
 Original source archives:
-- RevocationLab(1).zip
-- Evidence-Chrome(1).zip
-- Evidence-Edge(1).zip
+- RevocationLab.zip
+- Evidence-Chrome.zip
+- Evidence-Edge.zip
 
 Additional previously available material:
 - RevocationGap_Batch_Analysis_v11.zip (derived analyses, not primary evidence)
